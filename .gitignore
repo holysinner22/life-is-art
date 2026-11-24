@@ -1,0 +1,17 @@
+# Sensitive database configuration (use config.example.php as a template)
+config.php
+
+# Hosting & backup artifacts
+cgi-bin.zip
+cgi-bin/
+.well-known/
+
+# Dynamically uploaded artwork files (keep static site assets in uploads/)
+uploads/[0-9]*_*
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
